@@ -1,0 +1,50 @@
+*
+{
+    background-color: rgb(200, 198, 202);
+}
+#container
+{
+    font-family: Arial,sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+}
+#dice_number
+{
+    width: 100px;
+    height: 25px;
+    padding: 2px;
+    border-radius: 5px;
+}
+#roll_button
+{
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(118, 27, 204);
+    color: aliceblue;
+    cursor: pointer;
+}
+#roll_button:hover
+{
+    background-color: rgb(161, 87, 230);
+}
+#roll_button:active
+{
+    background-color: rgb(33, 6, 58);
+}
+input
+{
+    font-weight: bold;
+    font-size: large;
+}
+#dice_show
+{
+    margin: 15px;
+    font-weight: bold;
+}
+#dice_image img
+{
+    height: 60px;
+    padding: 10px;
+}
